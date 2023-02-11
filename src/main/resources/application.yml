@@ -1,0 +1,25 @@
+spring:
+  datasource:
+    username: root
+    password: 123456
+    url: jdbc:mysql://localhost:3306/wuspace
+    driver-class-name: com.mysql.cj.jdbc.Driver
+#    password: qhwycbc_.1030DS.
+#    url: jdbc:mysql://47.96.162.162:3306/wuspace
+    type: com.alibaba.druid.pool.DruidDataSource
+
+  servlet:
+    multipart:
+      max-file-size: 100MB
+
+  main:
+    banner-mode: off
+
+server:
+  port: 80
+#  port: 443
+#  ssl:
+#    key-store: classpath:9228589_www.wule.space.pfx
+#    key-store-password: 5d6bdxvp
+#    key-store-type: PKCS12
+#    enabled: true
